@@ -1,6 +1,6 @@
 # Bank-Market-Cap-Data-ETL-Process
 
-This Python script performs an Extract, Transform, and Load (ETL) process on bank market capitalization data obtained from a Wikipedia page. The ETL process includes extracting data from the webpage, transforming it to include market cap values in multiple currencies from a provided rate in a given csv file, and loading the transformed data into both a CSV file and a SQLite database.
+This Python script performs an Extract, Transform, and Load (ETL) process on bank market capitalization data extracted from a Wikipedia page. It extracts bank names and market capitalizations using web scraping techniques, transforms the data by converting market cap values to multiple currencies based on exchange rates, and loads the transformed data into both a CSV file and a SQLite database. The script also logs progress messages with timestamps to a text file for monitoring. It provides a simple yet effective tool for gathering and analyzing bank market cap data from publicly available sources.
 
 ## Functions Overview
 
